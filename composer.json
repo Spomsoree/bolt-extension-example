@@ -1,0 +1,27 @@
+{
+    "name": "lulububu/bolt-test-extension",
+    "description": "",
+    "type": "bolt-extension",
+    "keywords": [
+    ],
+    "require-dev": {
+        "bolt/core": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua",
+            "email": "joshua@lulububu.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lulububu\\TestExtension\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "entrypoint": "Lulububu\\TestExtension\\TestExtension"
+    }
+}
